@@ -10,6 +10,6 @@ TF2交易爬虫
 
 这个爬虫首先根据steamID获取用户的TF2背包物品信息，之后爬取一个TF2交易平台上的交易信息，并找出所有该用户可以进行（用户有交易交换的物品）且有利可图的交易，并返回交易信息。
 
-本爬虫缺少steam login功能，所以不能获取有些交易的URL.以后我会尝试加入steam login功能。
+本爬虫缺少steam login功能，所以不能获取有些交易的URL.以后我会尝试加入。
 
 `python3 hat_scrappah.py [NO_OF_PAGES_TO_SCRAP] [STEAM_ID]`
